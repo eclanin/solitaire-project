@@ -1,0 +1,16 @@
+**************************************
+**  This is my pseudocode for the   **
+**  project. Created 2/6/2025       **
+**************************************
+variable declaration zone:
+Card arrays: Each stack of cards will have multiple parallel arrays assigned to them, of fluxuating size. An array for number, an array for suit (club, diamond, heart, spade), as well as an array of booleans that indicate whether they've been flipped yet.
+There will also be a variable assigned to each stack to indicate how many cards are in a stack
+
+*************************************
+**    DRAW STACK  DECLARATION      **
+*************************************
+** king, queen and jack values will be defined as 11, 12 and 13. Null value represents end of stack.
+drawStack_size=52 (size of stack before being drawn)
+drawStack_suit[52] (defines suit)
+drawStack_value[52] (value 1-10/king,queen,jack)
+
